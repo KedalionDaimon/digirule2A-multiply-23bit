@@ -1,6 +1,8 @@
 # digirule2A-multiply-23bit
 Mulitplication of two 23-bit-numbers on a Digirule 2A
 
+```
+
 Program for the Digirule 2A to multiply two unsigned 23-bit integers, giving
 a maximum result of 8388607, e.g. by multiplying
 ALPHA1: 10101010 least significant byte
@@ -118,3 +120,4 @@ SHIFTRR GAMMA2   00010111 00001001          ; because we left-shift alpha once
 SHIFTRR GAMMA1   00010111 00001000          ; too much, so rshift gamma back
 HALT             00000000
 
+```
